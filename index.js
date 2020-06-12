@@ -278,11 +278,21 @@ bio: Add 1-2 sentences (or use lorem ipsum)
 
 At the end, this function should console.log() the new array with information added"*/
 
+let alexWilliams = { 
+  'id': 21,
+  'name':"Alex Williams",
+  'years': "1989 - current",
+  'genre':"Web Design",
+  'nationality': "American",
+  'bio':"Alex is a Lambda student and new to coding. He is learning javascript"
+}
+
 function addArtist(array,arrayAdd){
-
-    /* Code here */
-
+  array.push(alexWilliams)
+console.log(array)
   }
+
+addArtist(artists,alexWilliams)
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
@@ -298,7 +308,6 @@ function lotsOfArt(array){
     if (array[i].paintings > 100){
       newArray.push(array[i].name)
     }
-
   }
   return newArray
 }
