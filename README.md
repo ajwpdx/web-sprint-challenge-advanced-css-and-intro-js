@@ -22,11 +22,19 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. How would you describe preprocessing to someone new to CSS?
-2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+1. How would you describe accessibility on the web to someone new to programming?
+    Accessibility is taking in consideration all people when designing your website. It means designing the website so that particularly those with physical or cognative disabilities can navigate your webpage. 
+
+2. Talk about 3 different things you can do to ensure your website is accessible. 
+    1. Use semantic html tags. 
+    2. Avoid relying on color alone to convey a message. 
+    3. Make sure the text on the webpage can be scaled within a browser.  
+
 3. How would you explain the concept of a variable to someone new to programming?
+    A variable is a part of code where information is stored. It is like a jar that we put stuff in that we may want to access at a later time or fill with new information.
+
 4. What is the purpose of using functions in code?
-5. What is JSON data?
+    Functions allow us to do things within our code.  
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -36,17 +44,17 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Follow these steps to set up your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your Team Lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your Team Lead as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 
 ### Task 2a:  Minimum Viable Product - Responsive Design
 
 *Before you jump in, take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built. During this time, [Review the provided design files](design/). You have been provided all content necessary in the [index.html file](index.html) and basic styling in the [index.css file](css/index.css).*
 
-* [ ] Add a viewport meta tag to the head of your index.html page.
-* [ ] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
+* [x] Add a viewport meta tag to the head of your index.html page.
+* [x] Add responsive breakpoints to your code for 500px such that your styles match the [mobile design file](design/Mobile.png).
 
 ### Task 2b: Minimum Viable Product - JavaScript
 
@@ -57,7 +65,7 @@ Navigate to `index.js` and complete the MVP challenges. Note that you need to sc
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [ ] Use JavaScript to programmatically create HTML elements in the console and copy them to display all 20 artists on the page
-* [ ] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
+* [x] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
 * [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
 * [ ] Add responsive breakpoints to your code by using media queries
 * [ ] Add CSS animations
