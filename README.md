@@ -65,7 +65,7 @@ Navigate to `index.js` and complete the MVP challenges. Note that you need to sc
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [ ] Use JavaScript to programmatically create HTML elements in the console and copy them to display all 20 artists on the page
-* [ ] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
+* [x] Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order.
 * [ ] Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example)
 * [ ] Add responsive breakpoints to your code by using media queries
 * [ ] Add CSS animations
